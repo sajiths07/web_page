@@ -24,7 +24,11 @@ class _HomePageState extends State<HomePage> {
                 color: Colors.black,
               ),
               child: Image.asset(
+<<<<<<< HEAD
                 "8d51.webp",
+=======
+                "med.jpg",
+>>>>>>> b3c089e ( commit 2)
                 fit: BoxFit.cover,
               ),
             ),
@@ -50,7 +54,11 @@ class _HomePageState extends State<HomePage> {
                   });
                 },
                 child: Text(
+<<<<<<< HEAD
                   'Contact Info',
+=======
+                  'App Info',
+>>>>>>> b3c089e ( commit 2)
                   style: TextStyle(color: Colors.grey),
                 ),
               ),
@@ -60,6 +68,7 @@ class _HomePageState extends State<HomePage> {
                 children: [
                   SizedBox(height: 8),
                   Text(
+<<<<<<< HEAD
                     'Office Location\n'
                         'EyeT Innovations Software Solutions (p) LTD,\n'
                         '37/28/9-B, Ground Floor,\n'
@@ -71,6 +80,10 @@ class _HomePageState extends State<HomePage> {
                         'info@eyetinnovations.com\n\n'
                         'Give us a call\n\n'
                         '+91 854 755 3629',
+=======
+                    ' Contact info'
+                        'medapp@gmail.com',
+>>>>>>> b3c089e ( commit 2)
                     textAlign: TextAlign.start,
                     style: TextStyle(
                       fontSize: 16.0,
@@ -92,7 +105,11 @@ class _HomePageState extends State<HomePage> {
             pinned: true,
             flexibleSpace: FlexibleSpaceBar(
               background: Image.asset(
+<<<<<<< HEAD
                 "8d51.webp",
+=======
+                "med.jpg",
+>>>>>>> b3c089e ( commit 2)
                 fit: BoxFit.cover,
               ),
             ),
@@ -111,7 +128,11 @@ class _HomePageState extends State<HomePage> {
                 ListTile(
                   subtitle: Container(
                     child: Text(
+<<<<<<< HEAD
                       '\n Innovate. Integrate. Inspire.',
+=======
+                      '\n fast. accurate. low cost.',
+>>>>>>> b3c089e ( commit 2)
                       style: TextStyle(
                         fontSize: 10,
                         color: Colors.grey,
@@ -120,7 +141,11 @@ class _HomePageState extends State<HomePage> {
                   ),
                   leading: Container(
                     child: Image.asset(
+<<<<<<< HEAD
                       'eye.png',
+=======
+                      'med2.jpg',
+>>>>>>> b3c089e ( commit 2)
                       width: 250.0,
                       height: 50.0,
                       fit: BoxFit.cover,
@@ -166,12 +191,18 @@ class _HomePageState extends State<HomePage> {
                 ),
                 SizedBox(height: 16.0),
                 buildImageSlider([
+<<<<<<< HEAD
                   '10.jpg',
                   '11.jpg',
                   "100.png",
                   "101.jpg",
                   "102.png",
                   "104.png",
+=======
+                  'p1.jpg',
+                  'p2.jpg',
+                  "p3.png",
+>>>>>>> b3c089e ( commit 2)
                 ], false),
                 SizedBox(height: 16.0),
                 Container(
@@ -186,7 +217,11 @@ class _HomePageState extends State<HomePage> {
                         ),
                       ),
                       Text(
+<<<<<<< HEAD
                         'info@eyenet.com',
+=======
+                        'medapp@gmail.com',
+>>>>>>> b3c089e ( commit 2)
                         style: TextStyle(color: Colors.black),
                       ),
                       SizedBox(width: 16.0),
@@ -201,7 +236,11 @@ class _HomePageState extends State<HomePage> {
                         height: 20,
                       ),
                       Text(
+<<<<<<< HEAD
                         'eyenet@ind',
+=======
+                        'medapp@ind',
+>>>>>>> b3c089e ( commit 2)
                         style: TextStyle(color: Colors.black),
                       ),
                       SizedBox(width: 20.0),
@@ -216,7 +255,11 @@ class _HomePageState extends State<HomePage> {
                         height: 20,
                       ),
                       Text(
+<<<<<<< HEAD
                         '7736356654',
+=======
+                        'xxxxxxxxxx',
+>>>>>>> b3c089e ( commit 2)
                         style: TextStyle(color: Colors.black),
                       ),
                     ],

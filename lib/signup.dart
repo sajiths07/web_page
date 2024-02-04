@@ -45,7 +45,11 @@ class _SignUpPageState extends State<SignUpPage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               CircleAvatar(
+<<<<<<< HEAD
                 backgroundImage: AssetImage('8d51.webp'),
+=======
+                backgroundImage: AssetImage('med.jpg'),
+>>>>>>> b3c089e ( commit 2)
                 radius: 150,
               ),
               Text(
