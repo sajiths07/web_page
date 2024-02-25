@@ -38,7 +38,8 @@ class _SplashScreenState extends State<SplashScreen> {
             ),
             SizedBox(height: 16),
             Text(
-              "'Innovate. Integrate. Inspire.',",
+              "'Innovate. Integrate. Inspire.',"),
+              Image(
               image: AssetImage("p1.jpg"),
             ),
             SizedBox(height: 16),

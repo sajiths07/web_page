@@ -19,8 +19,66 @@ class _HomePageState extends State<HomePage> {
         child: ListView(
           padding: EdgeInsets.zero,
           children: <Widget>[
-            DrawerHeader(
-              decoration: BoxDecoration(
+            DrawerHeader(, child: SizedBox(height: 10,),;
+
+            void main() {
+      runApp(VoiceRecognitionApp());
+      }
+
+        class VoiceRecognitionApp extends StatelessWidget {
+      @override
+      Widget build(BuildContext context) {
+      return MaterialApp(
+      title: 'Voice Recognition App',
+      theme: ThemeData(
+      primarySwatch: Colors.blue,
+      visualDensity: VisualDensity.adaptivePlatformDensity,
+      ),
+      home: VoiceRecognitionHomePage(),
+      );
+      }
+      }
+
+        class VoiceRecognitionHomePage extends StatelessWidget {
+      @override
+      Widget build(BuildContext context) {
+      return Scaffold(
+      appBar: AppBar(
+      title: Text('Voice Recognition App'),
+      ),
+      body: Center(
+      child: Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: <Widget>[
+      Icon(
+      Icons.mic,
+      size: 100,
+      color: Colors.blue,
+      ),
+      SizedBox(height: 20),
+      Text(
+      'Tap the microphone to start voice recognition',
+      style: TextStyle(fontSize: 18),
+      textAlign: TextAlign.center,
+      ),
+      ],
+      ),
+      ),
+      floatingActionButton: FloatingActionButton(
+      onPressed: () {
+      // Add your voice recognition logic here
+      // This is where you would initiate voice recognition
+      // For simplicity, let's just print a message for now
+      print('Voice recognition initiated');
+      },
+      tooltip: 'Start Voice Recognition',
+      child: Icon(Icons.mic),
+      ),
+      );
+      }
+      }
+
+        decoration: BoxDecoration(
                 color: Colors.black,
               ),
               child: Image.asset(
